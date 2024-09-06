@@ -1,0 +1,151 @@
+@media (max-width: 1024px) {
+  .header-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-list {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-button button {
+    padding: 8px 16px;
+  }
+
+  .nav-list li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    width: 90%;
+  }
+
+  .nav-list li a {
+    font-size: 14px;
+  }
+
+  .header-button button {
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-button button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .header-logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-list li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-list li a {
+    font-size: 10px;
+  }
+
+  .header-button button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+@media (max-width:769px) {
+  .elvate-buuton-main{
+    display: flex;
+    justify-content: center;
+   margin: 10px;
+  }
+}
+@media (max-width:769px) {
+  .elvate-buuton-main{
+    justify-content: center;
+  }
+}
+@media (max-width:769px) {
+  .elvate-buuton-main-9{
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+    .gallery img {
+        max-width: 150px;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+@media (max-width: 768px) {
+  .cross-image-grid {
+      grid-template-columns: 1fr;
+      gap: 15px;
+      width: 80vw;
+  }
+
+  .cross-image-grid div {
+      transform: rotate(3deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .cross-image-grid {
+      width: 100vw;
+      gap: 10px;
+  }
+
+  .cross-image-grid div {
+      border-radius: 15px;
+      transform: rotate(2deg);
+  }
+
+  .cross-image-grid .cross-img {
+      border-radius: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cross-image-grid {
+      width: 95vw;
+      gap: 8px;
+  }
+
+  .cross-image-grid div {
+      border-radius: 10px;
+      transform: rotate(0deg);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .cross-image-grid .cross-img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+ }
+}
